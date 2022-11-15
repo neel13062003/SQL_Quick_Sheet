@@ -1,0 +1,16 @@
+=> on every modification we can fired a trigger. e.g. insert/delete/update/alter table
+=> no need to call the trigger, it is automatically fired by Oracle (implicitely)
+
+=> on which event
+=> restriction if(true) going to do some action
+=> action
+
+CREATE : WHEN ALREADY IS NOT EXIST
+REPLACE : REPLACE WITH ALREADY EXISTENCE INSTANCE.
+
+=> KEYWORD :
+* BEFORE/ AFTER : WHEN DEALING WOTH TABLE
+- USED TO ... DISPLAY SOME RESITRICTION MSG BEFORE/AFTER ON EXECUTION OF QUERY.
+E.G. : EMP. HASN'T RIGHTS TO CAHNGE SALARY.
+
+* INSTEAD OF : WHEN DEALING WITH VIEW
